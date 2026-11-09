@@ -1,0 +1,24 @@
+{
+  "purpose": "local tiny-batch and integration smoke test",
+  "parameters": 51426068,
+  "updates": 12,
+  "joint_loss": {"first": 7.256444931, "last": 1.006957055},
+  "world_loss": {"first": 5.023040771, "last": 0.995664239},
+  "policy_loss": {"first": 2.233404160, "last": 0.011292759},
+  "native_backend_parity": {
+    "operating_points": 100,
+    "max_branch_current_error_a": 0.000257950,
+    "max_branch_flow_error_mw": 0.000010829,
+    "max_voltage_error_pu": 0.000000117
+  },
+  "sandbox_baseline": {
+    "closed_loop_steps": 12,
+    "hold_compute_mwh": 5,
+    "greedy_compute_mwh": 5,
+    "raw_compute_mwh": 5,
+    "assisted_compute_mwh": 5,
+    "existing_load_lost_mwh": 0,
+    "violation_intervals": 0
+  },
+  "promotion": "not evaluated"
+}

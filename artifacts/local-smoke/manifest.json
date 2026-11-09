@@ -1,0 +1,16 @@
+{
+  "network": "l2rpn_neurips_2020_track1_small",
+  "smoke": true,
+  "files": [
+    "shard-000.parquet"
+  ],
+  "splits": {
+    "train": [
+      "Scenario_february_dummy"
+    ],
+    "val": [
+      "Scenario_august_dummy"
+    ],
+    "test": []
+  }
+}

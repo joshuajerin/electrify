@@ -1,0 +1,197 @@
+[
+  {
+    "step": 0,
+    "validation": {
+      "world": 5.081204891204834,
+      "policy": 0.0,
+      "loading_mae": 0.4064376652240753
+    }
+  },
+  {
+    "step": 1,
+    "elapsed_s": 12,
+    "stage": "one",
+    "loss": 5.640350580215454,
+    "validation": {
+      "world": 4.277130603790283,
+      "policy": 0.0,
+      "loading_mae": 0.3411361575126648
+    }
+  },
+  {
+    "step": 20,
+    "elapsed_s": 37,
+    "stage": "one",
+    "loss": 1.135349079966545,
+    "validation": {
+      "world": 1.2370681762695312,
+      "policy": 0.0,
+      "loading_mae": 0.24142839014530182
+    }
+  },
+  {
+    "step": 40,
+    "elapsed_s": 60,
+    "stage": "one",
+    "loss": 1.383569747209549,
+    "validation": {
+      "world": 1.6267014741897583,
+      "policy": 0.0,
+      "loading_mae": 0.22090843319892883
+    }
+  },
+  {
+    "step": 60,
+    "elapsed_s": 82,
+    "stage": "one",
+    "loss": 1.5316173136234283,
+    "validation": {
+      "world": 1.6433281898498535,
+      "policy": 0.0,
+      "loading_mae": 0.21938909590244293
+    }
+  },
+  {
+    "step": 80,
+    "elapsed_s": 104,
+    "stage": "world",
+    "loss": 1.5219014286994934,
+    "validation": {
+      "world": 1.1157851219177246,
+      "policy": 0.0,
+      "loading_mae": 0.21554864943027496
+    }
+  },
+  {
+    "step": 100,
+    "elapsed_s": 134,
+    "stage": "world",
+    "loss": 1.2776859104633331,
+    "validation": {
+      "world": 1.3261241912841797,
+      "policy": 0.0,
+      "loading_mae": 0.21746711432933807
+    }
+  },
+  {
+    "step": 120,
+    "elapsed_s": 160,
+    "stage": "world",
+    "loss": 1.5768242180347443,
+    "validation": {
+      "world": 1.2890613079071045,
+      "policy": 0.0,
+      "loading_mae": 0.2067410796880722
+    }
+  },
+  {
+    "step": 140,
+    "elapsed_s": 186,
+    "stage": "world",
+    "loss": 0.9624300450086594,
+    "validation": {
+      "world": 1.3184678554534912,
+      "policy": 0.0,
+      "loading_mae": 0.20813216269016266
+    }
+  },
+  {
+    "step": 160,
+    "elapsed_s": 212,
+    "stage": "world",
+    "loss": 1.1911497116088867,
+    "validation": {
+      "world": 1.052515983581543,
+      "policy": 0.0,
+      "loading_mae": 0.2138005644083023
+    }
+  },
+  {
+    "step": 180,
+    "elapsed_s": 241,
+    "stage": "world",
+    "loss": 1.0934517979621887,
+    "validation": {
+      "world": 1.3500150442123413,
+      "policy": 0.0,
+      "loading_mae": 0.16354994475841522
+    }
+  },
+  {
+    "step": 200,
+    "elapsed_s": 267,
+    "stage": "world",
+    "loss": 1.3235857486724854,
+    "validation": {
+      "world": 1.2889262437820435,
+      "policy": 0.0,
+      "loading_mae": 0.25424790382385254
+    }
+  },
+  {
+    "step": 220,
+    "elapsed_s": 293,
+    "stage": "world",
+    "loss": 1.3265784978866577,
+    "validation": {
+      "world": 1.1768726110458374,
+      "policy": 0.0,
+      "loading_mae": 0.22078488767147064
+    }
+  },
+  {
+    "step": 240,
+    "elapsed_s": 319,
+    "stage": "world",
+    "loss": 1.2034359127283096,
+    "validation": {
+      "world": 1.0907557010650635,
+      "policy": 0.0,
+      "loading_mae": 0.19661828875541687
+    }
+  },
+  {
+    "step": 260,
+    "elapsed_s": 350,
+    "stage": "world",
+    "loss": 1.0852726846933365,
+    "validation": {
+      "world": 1.0715559720993042,
+      "policy": 0.0,
+      "loading_mae": 0.1964811384677887
+    }
+  },
+  {
+    "step": 280,
+    "elapsed_s": 376,
+    "stage": "world",
+    "loss": 1.0098290294408798,
+    "validation": {
+      "world": 1.0969709157943726,
+      "policy": 0.0,
+      "loading_mae": 0.16351065039634705
+    }
+  },
+  {
+    "step": 300,
+    "elapsed_s": 402,
+    "stage": "world",
+    "loss": 1.3372448980808258,
+    "validation": {
+      "world": 1.1580491065979004,
+      "policy": 0.0,
+      "loading_mae": 0.13582392036914825
+    }
+  },
+  {
+    "step": 314,
+    "elapsed_s": 420,
+    "stage": "world",
+    "loss": 0.9395101070404053,
+    "validation": {
+      "world": 0.9869096279144287,
+      "policy": 0.0,
+      "loading_mae": 0.15294894576072693
+    }
+  }
+]

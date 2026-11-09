@@ -1,0 +1,105 @@
+{
+  "episode": 420,
+  "bus": 7,
+  "scenario": {
+    "id": "temporary-thermal-constraint",
+    "edits": [
+      [
+        8,
+        {
+          "kind": "rating",
+          "target": 54,
+          "value": 0.4236506505810458
+        }
+      ],
+      [
+        11,
+        {
+          "kind": "rating",
+          "target": 54,
+          "value": 1.0
+        }
+      ]
+    ]
+  },
+  "fixed": [
+    {
+      "mw": 80.0,
+      "passed": true,
+      "witness": null
+    },
+    {
+      "mw": 85.0,
+      "passed": true,
+      "witness": null
+    },
+    {
+      "mw": 90.0,
+      "passed": false,
+      "witness": {
+        "kind": "overload",
+        "equipment_id": 54,
+        "timestep": 20,
+        "value": 1.0387041973441922,
+        "limit": 1.0,
+        "severity": 0.03870419734419217
+      }
+    },
+    {
+      "mw": 95.0,
+      "passed": false,
+      "witness": {
+        "kind": "overload",
+        "equipment_id": 54,
+        "timestep": 20,
+        "value": 1.0992748684446438,
+        "limit": 1.0,
+        "severity": 0.09927486844464384
+      }
+    },
+    {
+      "mw": 100.0,
+      "passed": false,
+      "witness": {
+        "kind": "overload",
+        "equipment_id": 54,
+        "timestep": 20,
+        "value": 1.1601772451359633,
+        "limit": 1.0,
+        "severity": 0.16017724513596332
+      }
+    },
+    {
+      "mw": 105.0,
+      "passed": false,
+      "witness": {
+        "kind": "overload",
+        "equipment_id": 54,
+        "timestep": 20,
+        "value": 1.2214096332819266,
+        "limit": 1.0,
+        "severity": 0.22140963328192664
+      }
+    }
+  ],
+  "flexible": {
+    "mw": 105.0,
+    "passed": true,
+    "metrics": {
+      "completed_mwh": 168.0,
+      "immediate_lost_mwh": 0.0,
+      "deadline_miss_mwh": 0.0,
+      "existing_lost_mwh": 0.0,
+      "violations": 0,
+      "battery_terminal_mwh": 21.0
+    },
+    "peak_backlog_mwh": 6.299999999999997
+  },
+  "repair_grade": {
+    "failed_cases": 0,
+    "violations": 0,
+    "completed_mwh": 336.0,
+    "deadline_miss_mwh": 0.0
+  },
+  "replay_case": "temporary-thermal-constraint"
+}

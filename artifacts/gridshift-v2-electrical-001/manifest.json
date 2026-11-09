@@ -1,0 +1,10 @@
+{
+  "prior_usd": 1.5,
+  "reservation_usd": 0.3072576,
+  "reserve_usd": 2,
+  "dataset_shards": 62,
+  "training_sources": 386,
+  "parameters": 51426068,
+  "stage": "electrical",
+  "gpu": "NVIDIA L4"
+}

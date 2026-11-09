@@ -1,0 +1,832 @@
+{
+  "network": "l2rpn_neurips_2020_track1_small",
+  "tick": 11,
+  "tested_outages": [
+    11,
+    13,
+    39,
+    41
+  ],
+  "baseline_infeasible_outages": [
+    55,
+    58,
+    4
+  ],
+  "requested_mw": 69.6,
+  "attempts": [
+    {
+      "bus": 0,
+      "cap_mw": 0.0,
+      "feasible": true,
+      "cases": [
+        {
+          "outage": null,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 11,
+          "loading": 0.6919475488640346,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 11,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 58,
+          "loading": 0.6386349015909994,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 13,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 58,
+          "loading": 0.6352015391543473,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 39,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 13,
+          "loading": 0.7002405059238366,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 41,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 13,
+          "loading": 0.6983816299845735,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        }
+      ],
+      "incumbent_mw": 0.0
+    },
+    {
+      "bus": 0,
+      "cap_mw": 69.6,
+      "feasible": false,
+      "cases": [
+        {
+          "outage": null,
+          "feasible": false,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 2,
+          "loading": 1.185218162447707,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 11,
+          "feasible": false,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 2,
+          "loading": 1.1852760239776865,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 13,
+          "feasible": false,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 2,
+          "loading": 1.1852332811299404,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 39,
+          "feasible": false,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 2,
+          "loading": 1.1852094762947398,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 41,
+          "feasible": false,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 2,
+          "loading": 1.1852098916761469,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        }
+      ],
+      "incumbent_mw": 0.0
+    },
+    {
+      "bus": 0,
+      "cap_mw": 34.8,
+      "feasible": true,
+      "cases": [
+        {
+          "outage": null,
+          "feasible": true,
+          "failure": false,
+          "served": 34.8,
+          "worst_line": 55,
+          "loading": 0.6862368314601087,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 11,
+          "feasible": true,
+          "failure": false,
+          "served": 34.8,
+          "worst_line": 55,
+          "loading": 0.6600611174377884,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 13,
+          "feasible": true,
+          "failure": false,
+          "served": 34.8,
+          "worst_line": 55,
+          "loading": 0.671000664088603,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 39,
+          "feasible": true,
+          "failure": false,
+          "served": 34.8,
+          "worst_line": 55,
+          "loading": 0.6877540357342715,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 41,
+          "feasible": true,
+          "failure": false,
+          "served": 34.8,
+          "worst_line": 55,
+          "loading": 0.6875618671224456,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        }
+      ],
+      "incumbent_mw": 34.8
+    },
+    {
+      "bus": 0,
+      "cap_mw": 52.2,
+      "feasible": true,
+      "cases": [
+        {
+          "outage": null,
+          "feasible": true,
+          "failure": false,
+          "served": 52.2,
+          "worst_line": 2,
+          "loading": 0.8895939895246091,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 11,
+          "feasible": true,
+          "failure": false,
+          "served": 52.2,
+          "worst_line": 2,
+          "loading": 0.8896583466466491,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 13,
+          "feasible": true,
+          "failure": false,
+          "served": 52.2,
+          "worst_line": 2,
+          "loading": 0.889623035947327,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 39,
+          "feasible": true,
+          "failure": false,
+          "served": 52.2,
+          "worst_line": 2,
+          "loading": 0.8895870259387744,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 41,
+          "feasible": true,
+          "failure": false,
+          "served": 52.2,
+          "worst_line": 2,
+          "loading": 0.8895876532886994,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        }
+      ],
+      "incumbent_mw": 52.2
+    },
+    {
+      "bus": 0,
+      "cap_mw": 60.9,
+      "feasible": false,
+      "cases": [
+        {
+          "outage": null,
+          "feasible": false,
+          "failure": false,
+          "served": 60.9,
+          "worst_line": 2,
+          "loading": 1.0357218030744217,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 11,
+          "feasible": false,
+          "failure": false,
+          "served": 60.9,
+          "worst_line": 2,
+          "loading": 1.0357842474595893,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 13,
+          "feasible": false,
+          "failure": false,
+          "served": 60.9,
+          "worst_line": 2,
+          "loading": 1.0357449752154164,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 39,
+          "feasible": false,
+          "failure": false,
+          "served": 60.9,
+          "worst_line": 2,
+          "loading": 1.0357139557436146,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 41,
+          "feasible": false,
+          "failure": false,
+          "served": 60.9,
+          "worst_line": 2,
+          "loading": 1.0357145031540016,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        }
+      ],
+      "incumbent_mw": 52.2
+    },
+    {
+      "bus": 0,
+      "cap_mw": 56.55,
+      "feasible": true,
+      "cases": [
+        {
+          "outage": null,
+          "feasible": true,
+          "failure": false,
+          "served": 56.55,
+          "worst_line": 2,
+          "loading": 0.9622476317428054,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 11,
+          "feasible": true,
+          "failure": false,
+          "served": 56.55,
+          "worst_line": 2,
+          "loading": 0.9623113778831597,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 13,
+          "feasible": true,
+          "failure": false,
+          "served": 56.55,
+          "worst_line": 2,
+          "loading": 0.9622740286081406,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 39,
+          "feasible": true,
+          "failure": false,
+          "served": 56.55,
+          "worst_line": 2,
+          "loading": 0.9622402206535672,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 41,
+          "feasible": true,
+          "failure": false,
+          "served": 56.55,
+          "worst_line": 2,
+          "loading": 0.9622408143745479,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        }
+      ],
+      "incumbent_mw": 56.55
+    },
+    {
+      "bus": 0,
+      "cap_mw": 58.72,
+      "feasible": true,
+      "cases": [
+        {
+          "outage": null,
+          "feasible": true,
+          "failure": false,
+          "served": 58.72,
+          "worst_line": 2,
+          "loading": 0.9987965607726891,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 11,
+          "feasible": true,
+          "failure": false,
+          "served": 58.72,
+          "worst_line": 2,
+          "loading": 0.9988597425205107,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 13,
+          "feasible": true,
+          "failure": false,
+          "served": 58.72,
+          "worst_line": 2,
+          "loading": 0.9988214190943133,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 39,
+          "feasible": true,
+          "failure": false,
+          "served": 58.72,
+          "worst_line": 2,
+          "loading": 0.9987889306568761,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 41,
+          "feasible": true,
+          "failure": false,
+          "served": 58.72,
+          "worst_line": 2,
+          "loading": 0.9987895028811864,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        }
+      ],
+      "incumbent_mw": 58.72
+    },
+    {
+      "bus": 0,
+      "cap_mw": 59.81,
+      "feasible": false,
+      "cases": [
+        {
+          "outage": null,
+          "feasible": false,
+          "failure": false,
+          "served": 59.81,
+          "worst_line": 2,
+          "loading": 1.0172329737430161,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 11,
+          "feasible": false,
+          "failure": false,
+          "served": 59.81,
+          "worst_line": 2,
+          "loading": 1.0172958079760057,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 13,
+          "feasible": false,
+          "failure": false,
+          "served": 59.81,
+          "worst_line": 2,
+          "loading": 1.0172570063494708,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 39,
+          "feasible": false,
+          "failure": false,
+          "served": 59.81,
+          "worst_line": 2,
+          "loading": 1.0172252346664838,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 41,
+          "feasible": false,
+          "failure": false,
+          "served": 59.81,
+          "worst_line": 2,
+          "loading": 1.0172257948896553,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        }
+      ],
+      "incumbent_mw": 58.72
+    },
+    {
+      "bus": 0,
+      "cap_mw": 59.27,
+      "feasible": false,
+      "cases": [
+        {
+          "outage": null,
+          "feasible": false,
+          "failure": false,
+          "served": 59.27,
+          "worst_line": 2,
+          "loading": 1.008092807653285,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 11,
+          "feasible": false,
+          "failure": false,
+          "served": 59.27,
+          "worst_line": 2,
+          "loading": 1.0081558193634559,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 13,
+          "feasible": false,
+          "failure": false,
+          "served": 59.27,
+          "worst_line": 2,
+          "loading": 1.0081172537026981,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 39,
+          "feasible": false,
+          "failure": false,
+          "served": 59.27,
+          "worst_line": 2,
+          "loading": 1.0080851224689655,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 41,
+          "feasible": false,
+          "failure": false,
+          "served": 59.27,
+          "worst_line": 2,
+          "loading": 1.008085688738768,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        }
+      ],
+      "incumbent_mw": 58.72
+    },
+    {
+      "bus": 32,
+      "cap_mw": 0.0,
+      "feasible": true,
+      "cases": [
+        {
+          "outage": null,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 11,
+          "loading": 0.6919475488640346,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 11,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 58,
+          "loading": 0.6386349015909994,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 13,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 58,
+          "loading": 0.6352015391543473,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 39,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 13,
+          "loading": 0.7002405059238366,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 41,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 13,
+          "loading": 0.6983816299845735,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        }
+      ],
+      "incumbent_mw": 58.72
+    },
+    {
+      "bus": 32,
+      "cap_mw": 69.6,
+      "feasible": true,
+      "cases": [
+        {
+          "outage": null,
+          "feasible": true,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 55,
+          "loading": 0.6104230458313987,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 11,
+          "feasible": true,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 58,
+          "loading": 0.5933231490632372,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 13,
+          "feasible": true,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 55,
+          "loading": 0.5954174078551484,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 39,
+          "feasible": true,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 33,
+          "loading": 0.6176975945808582,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 41,
+          "feasible": true,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 33,
+          "loading": 0.6222990418265739,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        }
+      ],
+      "incumbent_mw": 69.6
+    },
+    {
+      "bus": 9,
+      "cap_mw": 0.0,
+      "feasible": true,
+      "cases": [
+        {
+          "outage": null,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 11,
+          "loading": 0.6919475488640346,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 11,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 58,
+          "loading": 0.6386349015909994,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 13,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 58,
+          "loading": 0.6352015391543473,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 39,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 13,
+          "loading": 0.7002405059238366,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 41,
+          "feasible": true,
+          "failure": false,
+          "served": 0.0,
+          "worst_line": 13,
+          "loading": 0.6983816299845735,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        }
+      ],
+      "incumbent_mw": 69.6
+    },
+    {
+      "bus": 9,
+      "cap_mw": 69.6,
+      "feasible": true,
+      "cases": [
+        {
+          "outage": null,
+          "feasible": true,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 55,
+          "loading": 0.6773179680753171,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 11,
+          "feasible": true,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 55,
+          "loading": 0.6512883909939048,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 13,
+          "feasible": true,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 55,
+          "loading": 0.662067412781659,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 39,
+          "feasible": true,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 55,
+          "loading": 0.6788573722423031,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        },
+        {
+          "outage": 41,
+          "feasible": true,
+          "failure": false,
+          "served": 69.6,
+          "worst_line": 55,
+          "loading": 0.67865324939327,
+          "lost": 0.0,
+          "min_voltage": 1.0
+        }
+      ],
+      "incumbent_mw": 69.6
+    }
+  ],
+  "best": {
+    "bus": 32,
+    "cap_mw": 69.6,
+    "feasible": true,
+    "cases": [
+      {
+        "outage": null,
+        "feasible": true,
+        "failure": false,
+        "served": 69.6,
+        "worst_line": 55,
+        "loading": 0.6104230458313987,
+        "lost": 0.0,
+        "min_voltage": 1.0
+      },
+      {
+        "outage": 11,
+        "feasible": true,
+        "failure": false,
+        "served": 69.6,
+        "worst_line": 58,
+        "loading": 0.5933231490632372,
+        "lost": 0.0,
+        "min_voltage": 1.0
+      },
+      {
+        "outage": 13,
+        "feasible": true,
+        "failure": false,
+        "served": 69.6,
+        "worst_line": 55,
+        "loading": 0.5954174078551484,
+        "lost": 0.0,
+        "min_voltage": 1.0
+      },
+      {
+        "outage": 39,
+        "feasible": true,
+        "failure": false,
+        "served": 69.6,
+        "worst_line": 33,
+        "loading": 0.6176975945808582,
+        "lost": 0.0,
+        "min_voltage": 1.0
+      },
+      {
+        "outage": 41,
+        "feasible": true,
+        "failure": false,
+        "served": 69.6,
+        "worst_line": 33,
+        "loading": 0.6222990418265739,
+        "lost": 0.0,
+        "min_voltage": 1.0
+      }
+    ],
+    "incumbent_mw": 69.6
+  },
+  "method": "AC-verified adaptive capacity search on selected single outages",
+  "scope": "One operating point, three candidate buses, selected outages, 10% load search ceiling"
+}

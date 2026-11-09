@@ -1,0 +1,1398 @@
+{
+  "suite_size": 24,
+  "episodes": [
+    {
+      "episode": 517,
+      "case": "intact",
+      "baseline_passed": true,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 7.0,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 0.5511835750000103
+        },
+        "ac": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 7.0,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 180,
+          "seconds": 4.313028668999991
+        },
+        "policy_only": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 12.600000000000001,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 2.980303562000003
+        },
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 4.24451754385965,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 4.168938995999994
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 1,
+          "battery_terminal_mwh": 4.543859649122808,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.9810341950000065
+        }
+      }
+    },
+    {
+      "episode": 530,
+      "case": "outage-7",
+      "baseline_passed": true,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 7.0,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 0.5600857179999963
+        },
+        "ac": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 7.0,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 180,
+          "seconds": 4.455153402999997
+        },
+        "policy_only": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 12.600000000000001,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 2.5333608130000016
+        },
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 4.5216008771929825,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.9068066679999873
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 1,
+          "battery_terminal_mwh": 4.543859649122808,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.863583171000002
+        }
+      }
+    },
+    {
+      "episode": 302,
+      "case": "derating",
+      "baseline_passed": false,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 6,
+          "battery_terminal_mwh": 1.7361842105263159,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 0.5617683389999968
+        },
+        "ac": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 5.6000000000000005,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": true,
+          "simulator_calls": 180,
+          "seconds": 4.298646559999995
+        },
+        "policy_only": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 12.600000000000001,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 2.3331427189999943
+        },
+        "learned": {
+          "completed_mwh": 56.0,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 3.143859649122808,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.9683061570000007
+        },
+        "learned_allocation": {
+          "completed_mwh": 55.99999999999998,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 3.1438596491228075,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.93290777899999
+        }
+      }
+    },
+    {
+      "episode": 429,
+      "case": "outage-21",
+      "baseline_passed": false,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 7.217214912280701,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 0.5601508919999958
+        },
+        "ac": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 7.0,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": true,
+          "simulator_calls": 180,
+          "seconds": 4.298373132999998
+        },
+        "policy_only": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 12.600000000000001,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 2.6673898829999985
+        },
+        "learned": {
+          "completed_mwh": 55.999999999999986,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 4.08717105263158,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.9600274299999967
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 4.543859649122808,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.8941247390000058
+        }
+      }
+    },
+    {
+      "episode": 272,
+      "case": "outage-28",
+      "baseline_passed": true,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 7.0,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 0.5542885469999987
+        },
+        "ac": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 7.0,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 180,
+          "seconds": 4.204844688999998
+        },
+        "policy_only": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 12.600000000000001,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 2.3081611080000073
+        },
+        "learned": {
+          "completed_mwh": 56.00000000000001,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 4.543859649122808,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.8792107150000277
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.00000000000001,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 4.543859649122808,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.9320302959999935
+        }
+      }
+    },
+    {
+      "episode": 129,
+      "case": "derating",
+      "baseline_passed": true,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 7.262499999999999,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 0.55126796899998
+        },
+        "ac": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 5.6000000000000005,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 180,
+          "seconds": 4.2086405469999875
+        },
+        "policy_only": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 12.600000000000001,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 2.511123948000005
+        },
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 2.567434210526316,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 4.104399349000005
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 1,
+          "battery_terminal_mwh": 3.143859649122808,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 4.078111308000018
+        }
+      }
+    },
+    {
+      "episode": 143,
+      "case": "outage-42",
+      "baseline_passed": true,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 55.999999999999986,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 1.4000000000000001,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 0.557719579999997
+        },
+        "ac": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 7.0,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 180,
+          "seconds": 4.2883228439999925
+        },
+        "policy_only": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 12.600000000000001,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 2.4029397669999923
+        },
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 4.543859649122808,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.877068734000005
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 1,
+          "battery_terminal_mwh": 4.543859649122808,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.8346172390000106
+        }
+      }
+    },
+    {
+      "episode": 114,
+      "case": "outage-49",
+      "baseline_passed": true,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 7.0,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 0.5524783500000012
+        },
+        "ac": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 7.0,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 180,
+          "seconds": 4.248297610999998
+        },
+        "policy_only": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 12.600000000000001,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 2.409184733999979
+        },
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 4.1247807017543865,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 4.100659744000012
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.00000000000002,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 3,
+          "battery_terminal_mwh": 4.543859649122809,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.990744035000006
+        }
+      }
+    },
+    {
+      "episode": 150,
+      "case": "derating",
+      "baseline_passed": true,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 55.99999999999998,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 6.985416666666666,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 0.5615008329999966
+        },
+        "ac": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 5.6000000000000005,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 180,
+          "seconds": 4.242545997999997
+        },
+        "policy_only": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 12.600000000000001,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 2.3157896980000032
+        },
+        "learned": {
+          "completed_mwh": 55.99999999999997,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 5.0235745614035086,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.9484955610000156
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 1,
+          "battery_terminal_mwh": 2.8069078947368427,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.9349340220000215
+        }
+      }
+    },
+    {
+      "episode": 218,
+      "case": "outage-4",
+      "baseline_passed": false,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 55.999999999999986,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 110,
+          "battery_terminal_mwh": 1.4000000000000001,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 0.5609590219999916
+        },
+        "ac": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 111,
+          "battery_terminal_mwh": 7.0,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 180,
+          "seconds": 4.282374734000001
+        },
+        "policy_only": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 111,
+          "battery_terminal_mwh": 12.600000000000001,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 2.3748134269999923
+        },
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 113,
+          "battery_terminal_mwh": 4.521600877192983,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 4.121253671000005
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 112,
+          "battery_terminal_mwh": 4.543859649122808,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.920529380000005
+        }
+      }
+    },
+    {
+      "episode": 476,
+      "case": "outage-11",
+      "baseline_passed": true,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 55.999999999999986,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 6.385964912280702,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 0.5556001479999964
+        },
+        "ac": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 7.0,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 180,
+          "seconds": 4.187378354000003
+        },
+        "policy_only": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 12.600000000000001,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 2.3241866430000186
+        },
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 4.543859649122808,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.908454258000006
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.00000000000002,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 4.543859649122809,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.914650256000016
+        }
+      }
+    }
+  ],
+  "repair_training_windows": 6,
+  "status": "complete",
+  "initial": {
+    "ac": {
+      "eligible_count": 8,
+      "completed_mwh": 56.000000000000014,
+      "immediate_lost_mwh": 0.0,
+      "deadline_miss_mwh": 0.0,
+      "existing_lost_mwh": 0.0,
+      "violations": 0.0,
+      "battery_terminal_mwh": 6.65,
+      "accepted_mw": 35.0,
+      "verified_mw": 35.0,
+      "passed": 1.0,
+      "simulator_calls": 180.0,
+      "seconds": 4.2685265143749955
+    },
+    "heuristic": {
+      "eligible_count": 8,
+      "completed_mwh": 56.0,
+      "immediate_lost_mwh": 0.0,
+      "deadline_miss_mwh": 0.0,
+      "existing_lost_mwh": 0.0,
+      "violations": 0.5,
+      "battery_terminal_mwh": 6.254235197368422,
+      "accepted_mw": 35.0,
+      "verified_mw": 26.25,
+      "passed": 0.75,
+      "simulator_calls": 36.0,
+      "seconds": 0.5555155899999971
+    },
+    "learned": {
+      "eligible_count": 8,
+      "completed_mwh": 56.00000000000001,
+      "immediate_lost_mwh": 0.0,
+      "deadline_miss_mwh": 0.0,
+      "existing_lost_mwh": 0.0,
+      "violations": 2.0,
+      "battery_terminal_mwh": 4.264185855263158,
+      "accepted_mw": 35.0,
+      "verified_mw": 0.0,
+      "passed": 0.0,
+      "simulator_calls": 36.0,
+      "seconds": 3.9867542531250066
+    },
+    "learned_allocation": {
+      "eligible_count": 8,
+      "completed_mwh": 56.000000000000014,
+      "immediate_lost_mwh": 0.0,
+      "deadline_miss_mwh": 0.0,
+      "existing_lost_mwh": 0.0,
+      "violations": 1.5,
+      "battery_terminal_mwh": 4.151740679824563,
+      "accepted_mw": 35.0,
+      "verified_mw": 0.0,
+      "passed": 0.0,
+      "simulator_calls": 36.0,
+      "seconds": 3.9412130652500093
+    },
+    "policy_only": {
+      "eligible_count": 8,
+      "completed_mwh": 56.000000000000014,
+      "immediate_lost_mwh": 0.0,
+      "deadline_miss_mwh": 0.0,
+      "existing_lost_mwh": 0.0,
+      "violations": 0.0,
+      "battery_terminal_mwh": 12.600000000000001,
+      "accepted_mw": 35.0,
+      "verified_mw": 35.0,
+      "passed": 1.0,
+      "simulator_calls": 36.0,
+      "seconds": 2.4731312841250013
+    }
+  },
+  "forecast": {
+    "5": {
+      "loading_mae": 0.05954604223370552,
+      "voltage_mae": 0.0167295194696635,
+      "persistence_loading_mae": 0.0047360960161313415,
+      "count": 4
+    },
+    "15": {
+      "loading_mae": 0.06112550664693117,
+      "voltage_mae": 0.009123445372097194,
+      "persistence_loading_mae": 0.005170833377633244,
+      "count": 4
+    },
+    "30": {
+      "loading_mae": 0.06334281619638205,
+      "voltage_mae": 0.006160967983305454,
+      "persistence_loading_mae": 0.009908383712172508,
+      "count": 4
+    },
+    "60": {
+      "loading_mae": 0.1008444968611002,
+      "voltage_mae": 0.00729666743427515,
+      "persistence_loading_mae": 0.06548989680595696,
+      "count": 4
+    }
+  },
+  "transfer": [
+    {
+      "episode": 0,
+      "baseline_passed": false,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 15.999999999999993,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 11,
+          "battery_terminal_mwh": 2.0,
+          "accepted_mw": 10.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 0.539243880000015
+        },
+        "learned": {
+          "completed_mwh": 15.999999999999993,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 11,
+          "battery_terminal_mwh": 1.2982456140350878,
+          "accepted_mw": 10.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.6421193639999956
+        }
+      }
+    },
+    {
+      "episode": 1,
+      "baseline_passed": false,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 16.000000000000004,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 12,
+          "battery_terminal_mwh": 2.0,
+          "accepted_mw": 10.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 0.5460138450000045
+        },
+        "learned": {
+          "completed_mwh": 15.999999999999993,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 13,
+          "battery_terminal_mwh": 1.2982456140350878,
+          "accepted_mw": 10.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.947667453000008
+        }
+      }
+    },
+    {
+      "episode": 2,
+      "baseline_passed": false,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 15.999999999999993,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 12,
+          "battery_terminal_mwh": 2.0,
+          "accepted_mw": 10.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 0.5509553750000009
+        },
+        "learned": {
+          "completed_mwh": 15.999999999999993,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 13,
+          "battery_terminal_mwh": 1.2982456140350878,
+          "accepted_mw": 10.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.7208358830000066
+        }
+      }
+    }
+  ],
+  "refined_episodes": [
+    {
+      "episode": 517,
+      "case": "intact",
+      "baseline_passed": true,
+      "results": {
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 4.184649122807022,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.946070148999979
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.00000000000001,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 1,
+          "battery_terminal_mwh": 4.124780701754393,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.8422960999999987
+        }
+      }
+    },
+    {
+      "episode": 530,
+      "case": "outage-7",
+      "baseline_passed": true,
+      "results": {
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 10.819298245614037,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 3.889559835
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 10.482346491228075,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 3.8385147829999937
+        }
+      }
+    },
+    {
+      "episode": 302,
+      "case": "derating",
+      "baseline_passed": false,
+      "results": {
+        "learned": {
+          "completed_mwh": 56.00000000000002,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 1,
+          "battery_terminal_mwh": 9.636513157894736,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 3.8556073800000377
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 1,
+          "battery_terminal_mwh": 9.913596491228073,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 4.12364239599998
+        }
+      }
+    },
+    {
+      "episode": 429,
+      "case": "outage-21",
+      "baseline_passed": false,
+      "results": {
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 10.759429824561407,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 3.9374059030000126
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 11.036513157894742,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 4.003880277999997
+        }
+      }
+    },
+    {
+      "episode": 272,
+      "case": "outage-28",
+      "baseline_passed": true,
+      "results": {
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 2,
+          "battery_terminal_mwh": 4.543859649122808,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 4.02473033900003
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 3,
+          "battery_terminal_mwh": 3.967434210526317,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 4.051435429000037
+        }
+      }
+    },
+    {
+      "episode": 129,
+      "case": "derating",
+      "baseline_passed": true,
+      "results": {
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 9.756249999999998,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 3.9610518270000057
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 10.962061403508779,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 3.904457652000019
+        }
+      }
+    },
+    {
+      "episode": 143,
+      "case": "outage-42",
+      "baseline_passed": true,
+      "results": {
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 9.651096491228072,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 3.9256070070000533
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 7.35230263157895,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 3.987744955999972
+        }
+      }
+    },
+    {
+      "episode": 114,
+      "case": "outage-49",
+      "baseline_passed": true,
+      "results": {
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 9.988048245614035,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 3.9901661230000514
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 10.819298245614036,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 4.273390003000031
+        }
+      }
+    },
+    {
+      "episode": 150,
+      "case": "derating",
+      "baseline_passed": true,
+      "results": {
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 11.972916666666666,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 3.9710108350000155
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 12.130263157894735,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 4.0586372209999695
+        }
+      }
+    },
+    {
+      "episode": 218,
+      "case": "outage-4",
+      "baseline_passed": false,
+      "results": {
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 112,
+          "battery_terminal_mwh": 10.797039473684217,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 4.014681607999989
+        },
+        "learned_allocation": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 132,
+          "battery_terminal_mwh": 10.57982456140351,
+          "accepted_mw": 35.0,
+          "verified_mw": 0.0,
+          "passed": false,
+          "simulator_calls": 36,
+          "seconds": 4.010652955000012
+        }
+      }
+    },
+    {
+      "episode": 476,
+      "case": "outage-11",
+      "baseline_passed": true,
+      "results": {
+        "learned": {
+          "completed_mwh": 56.000000000000014,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 10.325000000000001,
+          "accepted_mw": 35.0,
+          "verified_mw": 35.0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 3.9670918150000034
+        },
+        "learned_allocation": {
+          "completed_mwh": 0.0,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "violations": 0,
+          "battery_terminal_mwh": 0,
+          "accepted_mw": 0,
+          "verified_mw": 0,
+          "passed": true,
+          "simulator_calls": 36,
+          "seconds": 3.7639853280000466
+        }
+      }
+    }
+  ],
+  "refined": {
+    "learned": {
+      "eligible_count": 8,
+      "completed_mwh": 56.000000000000014,
+      "immediate_lost_mwh": 0.0,
+      "deadline_miss_mwh": 0.0,
+      "existing_lost_mwh": 0.0,
+      "violations": 0.5,
+      "battery_terminal_mwh": 8.90513980263158,
+      "accepted_mw": 35.0,
+      "verified_mw": 26.25,
+      "passed": 0.75,
+      "simulator_calls": 36.0,
+      "seconds": 3.9594109912500173
+    },
+    "learned_allocation": {
+      "eligible_count": 8,
+      "completed_mwh": 49.000000000000014,
+      "immediate_lost_mwh": 0.0,
+      "deadline_miss_mwh": 0.0,
+      "existing_lost_mwh": 0.0,
+      "violations": 0.5,
+      "battery_terminal_mwh": 7.47981085526316,
+      "accepted_mw": 30.625,
+      "verified_mw": 21.875,
+      "passed": 0.75,
+      "simulator_calls": 36.0,
+      "seconds": 3.9650576840000085
+    }
+  },
+  "paired": {
+    "count": 8,
+    "mean_verified_mw_delta": 26.25,
+    "bootstrap_ci95": [
+      13.125,
+      35.0
+    ]
+  }
+}

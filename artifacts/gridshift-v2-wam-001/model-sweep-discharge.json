@@ -1,0 +1,4693 @@
+{
+  "gpu": "NVIDIA A10",
+  "rows": [
+    {
+      "episode": 243,
+      "start_tick": 50,
+      "requested_mw": 105.0,
+      "scenario": {
+        "id": "connected_outage",
+        "edits": [
+          [
+            4,
+            {
+              "kind": "line",
+              "target": 13,
+              "value": false
+            }
+          ]
+        ]
+      },
+      "baseline_passed": true,
+      "baseline_witness": null,
+      "results": {
+        "heuristic": {
+          "completed_mwh": 168.0,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "passed": true,
+          "accepted_mw": 105.0,
+          "allocation": {
+            "7": 57.75000000000001,
+            "0": 47.25
+          },
+          "witness": null,
+          "trace": [
+            {
+              "step": 1,
+              "peak_loading": 0.7566163879578068,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.8,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 2,
+              "peak_loading": 0.7552828704863424,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 3,
+              "peak_loading": 0.756234636758097,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 4,
+              "peak_loading": 0.7448773818320367,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 5,
+              "peak_loading": 0.7448424457816012,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 6,
+              "peak_loading": 0.7448537058363449,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 7,
+              "peak_loading": 0.7406107999210965,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 8,
+              "peak_loading": 0.7440451682133531,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 9,
+              "peak_loading": 0.7444724979759858,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 10,
+              "peak_loading": 0.7445453884933037,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 11,
+              "peak_loading": 0.7434147358598798,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 12,
+              "peak_loading": 0.7425326158570739,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 13,
+              "peak_loading": 0.7444005847953834,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 14,
+              "peak_loading": 0.7436296784537867,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 15,
+              "peak_loading": 0.7445541887349144,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 16,
+              "peak_loading": 0.7435487285280512,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 17,
+              "peak_loading": 0.7401412310443514,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 18,
+              "peak_loading": 0.7439009496700304,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 19,
+              "peak_loading": 0.7442683787221873,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 20,
+              "peak_loading": 0.7395378322232838,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 21,
+              "peak_loading": 0.7434863551307858,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 22,
+              "peak_loading": 0.7455907787099515,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 23,
+              "peak_loading": 0.744954054039601,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 24,
+              "peak_loading": 0.7441147589531972,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 25,
+              "peak_loading": 0.6173906898105381,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  2.398081733190338e-15,
+                  2.9309887850104135e-15
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 26,
+              "peak_loading": 0.6238991111900053,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 27,
+              "peak_loading": 0.6212745049479302,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 28,
+              "peak_loading": 0.6155434372184155,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 29,
+              "peak_loading": 0.6183174358945642,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 30,
+              "peak_loading": 0.6183695941145477,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 31,
+              "peak_loading": 0.6227102312755203,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 32,
+              "peak_loading": 0.6265260268255887,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 33,
+              "peak_loading": 0.6248196699419677,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 34,
+              "peak_loading": 0.6212720552596155,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 35,
+              "peak_loading": 0.6225973981235323,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 36,
+              "peak_loading": 0.6202987945062495,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            }
+          ],
+          "discharge_counterfactuals": []
+        },
+        "policy_only": {
+          "completed_mwh": 168.0,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "passed": true,
+          "accepted_mw": 105.0,
+          "allocation": {
+            "7": 57.75000000000001,
+            "0": 47.25
+          },
+          "witness": null,
+          "trace": [
+            {
+              "step": 1,
+              "peak_loading": 0.7723350591782902,
+              "battery_mwh": 21.831250000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.8,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 2,
+              "peak_loading": 0.7709367771594591,
+              "battery_mwh": 22.662500000000005,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 3,
+              "peak_loading": 0.7718976505976859,
+              "battery_mwh": 23.493750000000006,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 4,
+              "peak_loading": 0.7635496422412846,
+              "battery_mwh": 24.325000000000006,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 5,
+              "peak_loading": 0.7634776961401774,
+              "battery_mwh": 25.156250000000007,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 6,
+              "peak_loading": 0.763493305952094,
+              "battery_mwh": 25.987500000000008,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 7,
+              "peak_loading": 0.7591327066187697,
+              "battery_mwh": 26.81875000000001,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 8,
+              "peak_loading": 0.7626061318190756,
+              "battery_mwh": 27.65000000000001,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 9,
+              "peak_loading": 0.7630219329498478,
+              "battery_mwh": 28.48125000000001,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 10,
+              "peak_loading": 0.7630594292846837,
+              "battery_mwh": 29.312500000000014,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 11,
+              "peak_loading": 0.7618598147675372,
+              "battery_mwh": 30.14375000000001,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 12,
+              "peak_loading": 0.7609734532084286,
+              "battery_mwh": 30.975000000000016,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 13,
+              "peak_loading": 0.7628168465727418,
+              "battery_mwh": 31.806250000000013,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 14,
+              "peak_loading": 0.7620601520404979,
+              "battery_mwh": 32.63750000000002,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 15,
+              "peak_loading": 0.7629385902565128,
+              "battery_mwh": 33.468750000000014,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 16,
+              "peak_loading": 0.7619223203538359,
+              "battery_mwh": 34.30000000000002,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 17,
+              "peak_loading": 0.7583615575648819,
+              "battery_mwh": 35.131250000000016,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 18,
+              "peak_loading": 0.7622128576362943,
+              "battery_mwh": 35.96250000000002,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 19,
+              "peak_loading": 0.7625282199821064,
+              "battery_mwh": 36.79375000000002,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 20,
+              "peak_loading": 0.7576706574049531,
+              "battery_mwh": 37.625000000000014,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 21,
+              "peak_loading": 0.7472758768743504,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -0.9947368421050765,
+                  -1.2157894736842716
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 22,
+              "peak_loading": 0.7455907787099515,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 23,
+              "peak_loading": 0.744954054039601,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 24,
+              "peak_loading": 0.7441147589531972,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 25,
+              "peak_loading": 0.6173906898105381,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  2.398081733190338e-15,
+                  2.9309887850104135e-15
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 26,
+              "peak_loading": 0.6238991111900053,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 27,
+              "peak_loading": 0.6212745049479302,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 28,
+              "peak_loading": 0.6155434372184155,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 29,
+              "peak_loading": 0.6183174358945642,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 30,
+              "peak_loading": 0.6183695941145477,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 31,
+              "peak_loading": 0.6227102312755203,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 32,
+              "peak_loading": 0.6265260268255887,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 33,
+              "peak_loading": 0.6248196699419677,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 34,
+              "peak_loading": 0.6212720552596155,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 35,
+              "peak_loading": 0.6225973981235323,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 36,
+              "peak_loading": 0.6202987945062495,
+              "battery_mwh": 37.80000000000001,
+              "backlog_mwh": 0.0,
+              "forecast_error": null,
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -0.0,
+                  -0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            }
+          ],
+          "discharge_counterfactuals": []
+        },
+        "deployed_wam": {
+          "completed_mwh": 168.00000000000003,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "passed": false,
+          "accepted_mw": 105.0,
+          "allocation": {
+            "7": 57.75000000000001,
+            "0": 47.25
+          },
+          "witness": {
+            "kind": "generation_limit",
+            "equipment_id": 21,
+            "timestep": 77,
+            "value": -0.17407696800916206,
+            "limit": 0.0,
+            "severity": 0.17407696800916206
+          },
+          "trace": [
+            {
+              "step": 1,
+              "peak_loading": 0.6905812958077546,
+              "battery_mwh": 19.15789473684211,
+              "backlog_mwh": 2.0999999999999996,
+              "forecast_error": {
+                "wam": 0.06078455499628638,
+                "persistence": 0.04317435072369159,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  32.34000000000001
+                ],
+                "battery": [
+                  9.450000000000001,
+                  11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 2,
+              "peak_loading": 0.6895719024830826,
+              "battery_mwh": 17.315789473684212,
+              "backlog_mwh": 4.199999999999999,
+              "forecast_error": {
+                "wam": 0.05462101143489856,
+                "persistence": 0.00418973828196456,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  32.34000000000001
+                ],
+                "battery": [
+                  9.450000000000001,
+                  11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 3,
+              "peak_loading": 0.6904784739341275,
+              "battery_mwh": 15.473684210526317,
+              "backlog_mwh": 6.299999999999999,
+              "forecast_error": {
+                "wam": 0.05349007851900244,
+                "persistence": 0.0026010957451674914,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  32.34000000000001
+                ],
+                "battery": [
+                  9.450000000000001,
+                  11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 4,
+              "peak_loading": 0.6677356816347191,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999999,
+              "forecast_error": {
+                "wam": 0.06597631461539848,
+                "persistence": 0.03547387807308817,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  32.34000000000001
+                ],
+                "battery": [
+                  9.450000000000001,
+                  11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 5,
+              "peak_loading": 0.7448424457815996,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999997,
+              "forecast_error": {
+                "wam": 0.08836075700589485,
+                "persistence": 0.05094393916670102,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 6,
+              "peak_loading": 0.7448537058363467,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999997,
+              "forecast_error": {
+                "wam": 0.07972882886808128,
+                "persistence": 0.001708373890483061,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 7,
+              "peak_loading": 0.7406107999210924,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999997,
+              "forecast_error": {
+                "wam": 0.07450371082237385,
+                "persistence": 0.00251614472197295,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 8,
+              "peak_loading": 0.7440451682133532,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999997,
+              "forecast_error": {
+                "wam": 0.07085452548616089,
+                "persistence": 0.002414540059876687,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 9,
+              "peak_loading": 0.7444724979759875,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999995,
+              "forecast_error": {
+                "wam": 0.06729169699826269,
+                "persistence": 0.0034786432731942003,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 10,
+              "peak_loading": 0.7445453884933051,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999995,
+              "forecast_error": {
+                "wam": 0.06560333004974936,
+                "persistence": 0.002207709619614725,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 11,
+              "peak_loading": 0.743414735859879,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999995,
+              "forecast_error": {
+                "wam": 0.06308099776708821,
+                "persistence": 0.0035872202307479584,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 12,
+              "peak_loading": 0.7425326158570731,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999995,
+              "forecast_error": {
+                "wam": 0.0620671459892534,
+                "persistence": 0.0011972165579310903,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 13,
+              "peak_loading": 0.7444005847953801,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999993,
+              "forecast_error": {
+                "wam": 0.05985006350082979,
+                "persistence": 0.0037684911058902025,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 14,
+              "peak_loading": 0.7436296784537832,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999993,
+              "forecast_error": {
+                "wam": 0.058544778171673216,
+                "persistence": 0.0023835883699957028,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 15,
+              "peak_loading": 0.744554188734916,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999993,
+              "forecast_error": {
+                "wam": 0.057440132177539946,
+                "persistence": 0.003593682982870498,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 16,
+              "peak_loading": 0.7435487285280562,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999993,
+              "forecast_error": {
+                "wam": 0.056491999833245314,
+                "persistence": 0.001901222809724946,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 17,
+              "peak_loading": 0.7401412310443514,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999991,
+              "forecast_error": {
+                "wam": 0.05387616762563647,
+                "persistence": 0.005269108590491345,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 18,
+              "peak_loading": 0.7439009496700295,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999991,
+              "forecast_error": {
+                "wam": 0.05419053448952048,
+                "persistence": 0.0042316654374592215,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 19,
+              "peak_loading": 0.744268378722185,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999991,
+              "forecast_error": {
+                "wam": 0.053365440347179514,
+                "persistence": 0.003919626191038077,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 20,
+              "peak_loading": 0.7395378322232832,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.399999999999991,
+              "forecast_error": {
+                "wam": 0.05285241333615005,
+                "persistence": 0.0034888947718761565,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 21,
+              "peak_loading": 0.7434863551307836,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.39999999999999,
+              "forecast_error": {
+                "wam": 0.05174690162326832,
+                "persistence": 0.0049512980359201495,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 22,
+              "peak_loading": 0.7455907787099507,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.39999999999999,
+              "forecast_error": {
+                "wam": 0.051197451248037776,
+                "persistence": 0.004129502035304662,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 23,
+              "peak_loading": 0.7449540540396004,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.39999999999999,
+              "forecast_error": {
+                "wam": 0.05100903334396704,
+                "persistence": 0.003171968127362683,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 24,
+              "peak_loading": 0.7441147589532028,
+              "battery_mwh": 13.631578947368421,
+              "backlog_mwh": 8.39999999999999,
+              "forecast_error": {
+                "wam": 0.05097366753230267,
+                "persistence": 0.0014319315963152836,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.20000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 25,
+              "peak_loading": 0.6699502799622684,
+              "battery_mwh": 11.789473684210526,
+              "backlog_mwh": 3.4999999999999893,
+              "forecast_error": {
+                "wam": 0.05383582969327153,
+                "persistence": 0.049657445317151196,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  32.34000000000001
+                ],
+                "battery": [
+                  9.450000000000001,
+                  11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 26,
+              "peak_loading": 0.646039338036243,
+              "battery_mwh": 9.94736842105263,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.05596858291714495,
+                "persistence": 0.018181733923575635,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  18.89999999999994,
+                  23.099999999999934
+                ],
+                "battery": [
+                  9.450000000000001,
+                  11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 27,
+              "peak_loading": 0.620291136976513,
+              "battery_mwh": 8.105263157894735,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.06915922688869698,
+                "persistence": 0.035464784599150506,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [
+                {
+                  "kind": "generation_limit",
+                  "equipment_id": 21,
+                  "timestep": 77,
+                  "value": -0.17407696800916206,
+                  "limit": 0.0,
+                  "severity": 0.17407696800916206
+                }
+              ],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  9.450000000000001,
+                  11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 28,
+              "peak_loading": 0.6145575685127215,
+              "battery_mwh": 7.700000000000002,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.056512174651232774,
+                "persistence": 0.017081685742584913,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  2.0789999999999713,
+                  2.540999999999985
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 29,
+              "peak_loading": 0.6455634489088413,
+              "battery_mwh": 9.3625,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04797816438215638,
+                "persistence": 0.023564608221497696,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -9.450000000000001,
+                  -11.549999999999997
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 30,
+              "peak_loading": 0.6454877123833507,
+              "battery_mwh": 11.025000000000002,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04823044397089374,
+                "persistence": 0.00252670907119349,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -9.450000000000001,
+                  -11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 31,
+              "peak_loading": 0.6452507816265108,
+              "battery_mwh": 12.6875,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04674888243578949,
+                "persistence": 0.0040990191183365625,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -9.450000000000001,
+                  -11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 32,
+              "peak_loading": 0.6453506373433522,
+              "battery_mwh": 14.350000000000001,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04626891648301589,
+                "persistence": 0.002759324050992806,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -9.450000000000001,
+                  -11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 33,
+              "peak_loading": 0.645092505153389,
+              "battery_mwh": 16.0125,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04657491980583313,
+                "persistence": 0.0027357538786772274,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -9.450000000000001,
+                  -11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 34,
+              "peak_loading": 0.6467259674227618,
+              "battery_mwh": 17.675,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04671064597752284,
+                "persistence": 0.0028996373331749868,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -9.450000000000001,
+                  -11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 35,
+              "peak_loading": 0.6466753760396905,
+              "battery_mwh": 19.3375,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04623095432234771,
+                "persistence": 0.003969383263253062,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -9.450000000000001,
+                  -11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 36,
+              "peak_loading": 0.6468974005502135,
+              "battery_mwh": 21.0,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.045666965746385416,
+                "persistence": 0.002576329750601738,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -9.45,
+                  -11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            }
+          ],
+          "discharge_counterfactuals": [
+            {
+              "step": 27,
+              "observed": [
+                {
+                  "kind": "generation_limit",
+                  "equipment_id": 21,
+                  "timestep": 77,
+                  "value": -0.17407696800916206,
+                  "limit": 0.0,
+                  "severity": 0.17407696800916206
+                }
+              ],
+              "no_discharge": []
+            }
+          ]
+        },
+        "refined_wam": {
+          "completed_mwh": 168.00000000000006,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "passed": true,
+          "accepted_mw": 105.0,
+          "allocation": {
+            "7": 57.75000000000001,
+            "0": 47.25
+          },
+          "witness": null,
+          "trace": [
+            {
+              "step": 1,
+              "peak_loading": 0.7723350591782902,
+              "battery_mwh": 21.831250000000004,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": {
+                "wam": 0.11365430021181637,
+                "persistence": 0.11154630137351183,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.8,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 2,
+              "peak_loading": 0.7709367771594591,
+              "battery_mwh": 22.662500000000005,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": {
+                "wam": 0.09311975963150361,
+                "persistence": 0.00411162305902834,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 3,
+              "peak_loading": 0.7718976505976859,
+              "battery_mwh": 23.493750000000006,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": {
+                "wam": 0.08204863653260532,
+                "persistence": 0.0026724223773748777,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 4,
+              "peak_loading": 0.7635496422412846,
+              "battery_mwh": 24.325000000000006,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": {
+                "wam": 0.07835711958987918,
+                "persistence": 0.012903268189420166,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 5,
+              "peak_loading": 0.7634776961401774,
+              "battery_mwh": 25.156250000000007,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": {
+                "wam": 0.06691713644530219,
+                "persistence": 0.0018656913894814719,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 6,
+              "peak_loading": 0.763493305952094,
+              "battery_mwh": 25.987500000000008,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": {
+                "wam": 0.06476114930354014,
+                "persistence": 0.001701573304798503,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 7,
+              "peak_loading": 0.7591327066187697,
+              "battery_mwh": 26.81875000000001,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": {
+                "wam": 0.062369672345250156,
+                "persistence": 0.002523384354680908,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 8,
+              "peak_loading": 0.7626061318190756,
+              "battery_mwh": 27.65000000000001,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": {
+                "wam": 0.061024134427072066,
+                "persistence": 0.00248192037607137,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 9,
+              "peak_loading": 0.7630219329498478,
+              "battery_mwh": 28.48125000000001,
+              "backlog_mwh": 4.440892098500626e-16,
+              "forecast_error": {
+                "wam": 0.05868367883127498,
+                "persistence": 0.003465858292174791,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  37.800000000000004,
+                  46.2
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 10,
+              "peak_loading": 0.7439809443580054,
+              "battery_mwh": 28.48125000000001,
+              "backlog_mwh": 0.36750000000000016,
+              "forecast_error": {
+                "wam": 0.0499087657786966,
+                "persistence": 0.018296911108887315,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  47.25,
+                  32.34000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 11,
+              "peak_loading": 0.742872181265257,
+              "battery_mwh": 28.48125000000001,
+              "backlog_mwh": 0.7349999999999999,
+              "forecast_error": {
+                "wam": 0.04983885913897093,
+                "persistence": 0.0036041070297345946,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  47.25,
+                  32.34000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 12,
+              "peak_loading": 0.7419809499642358,
+              "battery_mwh": 28.48125000000001,
+              "backlog_mwh": 1.1024999999999996,
+              "forecast_error": {
+                "wam": 0.05078692871357976,
+                "persistence": 0.0012034960778718644,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  47.25,
+                  32.34000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 13,
+              "peak_loading": 0.7438764645575598,
+              "battery_mwh": 28.48125000000001,
+              "backlog_mwh": 1.4699999999999993,
+              "forecast_error": {
+                "wam": 0.04876719165629648,
+                "persistence": 0.003822944261822352,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  47.25,
+                  32.34000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 14,
+              "peak_loading": 0.6677223749653278,
+              "battery_mwh": 26.639144736842113,
+              "backlog_mwh": 3.5699999999999985,
+              "forecast_error": {
+                "wam": 0.05019481825824958,
+                "persistence": 0.05171895334917943,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  32.34000000000001
+                ],
+                "battery": [
+                  9.450000000000001,
+                  11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 15,
+              "peak_loading": 0.668883848730857,
+              "battery_mwh": 24.79703947368422,
+              "backlog_mwh": 5.669999999999998,
+              "forecast_error": {
+                "wam": 0.043981592046584264,
+                "persistence": 0.0037013733044752467,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  32.34000000000001
+                ],
+                "battery": [
+                  9.450000000000001,
+                  11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 16,
+              "peak_loading": 0.6679319575263599,
+              "battery_mwh": 22.954934210526325,
+              "backlog_mwh": 7.769999999999998,
+              "forecast_error": {
+                "wam": 0.042522189871540446,
+                "persistence": 0.0019275437416915505,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  32.34000000000001
+                ],
+                "battery": [
+                  9.450000000000001,
+                  11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 17,
+              "peak_loading": 0.6653218661591005,
+              "battery_mwh": 21.112828947368428,
+              "backlog_mwh": 9.869999999999996,
+              "forecast_error": {
+                "wam": 0.0383728033469643,
+                "persistence": 0.005648817803387653,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  32.34000000000001
+                ],
+                "battery": [
+                  9.450000000000001,
+                  11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 18,
+              "peak_loading": 0.7434059072242221,
+              "battery_mwh": 21.112828947368428,
+              "backlog_mwh": 10.237499999999995,
+              "forecast_error": {
+                "wam": 0.05905608639794679,
+                "persistence": 0.048203693834110065,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  47.25,
+                  32.34000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 19,
+              "peak_loading": 0.6692296328374644,
+              "battery_mwh": 19.27072368421053,
+              "backlog_mwh": 12.337499999999995,
+              "forecast_error": {
+                "wam": 0.04166829342851193,
+                "persistence": 0.049740725687275965,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  32.34000000000001
+                ],
+                "battery": [
+                  9.450000000000001,
+                  11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 20,
+              "peak_loading": 0.6651632233800668,
+              "battery_mwh": 17.428618421052636,
+              "backlog_mwh": 14.437499999999995,
+              "forecast_error": {
+                "wam": 0.03947196104665769,
+                "persistence": 0.0038260033235404996,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  32.34000000000001
+                ],
+                "battery": [
+                  9.450000000000001,
+                  11.550000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 21,
+              "peak_loading": 0.7550226770217987,
+              "battery_mwh": 18.259868421052637,
+              "backlog_mwh": 14.419999999999995,
+              "forecast_error": {
+                "wam": 0.07014023424904668,
+                "persistence": 0.05500499094348085,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  57.75000000000001
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 22,
+              "peak_loading": 0.7571153567491519,
+              "battery_mwh": 19.091118421052638,
+              "backlog_mwh": 14.402499999999995,
+              "forecast_error": {
+                "wam": 0.061422161450954124,
+                "persistence": 0.0041718613154332704,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  57.75000000000001
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 23,
+              "peak_loading": 0.7564235742125218,
+              "battery_mwh": 19.92236842105264,
+              "backlog_mwh": 14.384999999999994,
+              "forecast_error": {
+                "wam": 0.05714166205229971,
+                "persistence": 0.0031614625590288114,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  57.75000000000001
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 24,
+              "peak_loading": 0.7555697890252484,
+              "battery_mwh": 20.75361842105264,
+              "backlog_mwh": 14.367499999999994,
+              "forecast_error": {
+                "wam": 0.055065209095916175,
+                "persistence": 0.0013922660043631956,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  57.75000000000001
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 25,
+              "peak_loading": 0.7555798186575678,
+              "battery_mwh": 21.58486842105264,
+              "backlog_mwh": 7.349999999999994,
+              "forecast_error": {
+                "wam": 0.05361379653694833,
+                "persistence": 0.002583055192323117,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  57.75000000000001
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 26,
+              "peak_loading": 0.738020796490528,
+              "battery_mwh": 21.58486842105264,
+              "backlog_mwh": 0.3324999999999956,
+              "forecast_error": {
+                "wam": 0.04814515337903611,
+                "persistence": 0.01301709137052709,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  26.46,
+                  57.75000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 27,
+              "peak_loading": 0.6356981086192374,
+              "battery_mwh": 22.41611842105264,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.06122463843490472,
+                "persistence": 0.0687737824171429,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  1.7954999999999761,
+                  2.194499999999971
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 28,
+              "peak_loading": 0.6287159491880437,
+              "battery_mwh": 23.24736842105264,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.05321052738755222,
+                "persistence": 0.005528736188504476,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 29,
+              "peak_loading": 0.6315877399663321,
+              "battery_mwh": 24.078618421052642,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.05046643693504214,
+                "persistence": 0.003707006967427987,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 30,
+              "peak_loading": 0.6315744543994295,
+              "battery_mwh": 24.909868421052643,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04846403248059598,
+                "persistence": 0.002517811695854467,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 31,
+              "peak_loading": 0.6314169820236655,
+              "battery_mwh": 25.741118421052644,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04489892458553237,
+                "persistence": 0.0042369397185361415,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 32,
+              "peak_loading": 0.6315597044069963,
+              "battery_mwh": 26.572368421052644,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.044651213007857044,
+                "persistence": 0.0028089787663793174,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 33,
+              "peak_loading": 0.6313683916071345,
+              "battery_mwh": 27.403618421052645,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04567273927971172,
+                "persistence": 0.002830133433266203,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 34,
+              "peak_loading": 0.6330181032255867,
+              "battery_mwh": 28.234868421052646,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04555051803918835,
+                "persistence": 0.002956607165386228,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -4.7250000000000005,
+                  -5.775000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 35,
+              "peak_loading": 0.6225973981235323,
+              "battery_mwh": 28.234868421052646,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.047585718823332485,
+                "persistence": 0.01054402711678079,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 36,
+              "peak_loading": 0.6202987945062495,
+              "battery_mwh": 28.234868421052646,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04559689835848038,
+                "persistence": 0.002425818362244153,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            }
+          ],
+          "discharge_counterfactuals": []
+        },
+        "wam_placement": {
+          "completed_mwh": 168.0,
+          "immediate_lost_mwh": 0.0,
+          "deadline_miss_mwh": 0.0,
+          "existing_lost_mwh": 0.0,
+          "passed": false,
+          "accepted_mw": 105.0,
+          "allocation": {
+            "7": 94.5,
+            "0": 5.25,
+            "1": 5.25
+          },
+          "witness": {
+            "kind": "generation_limit",
+            "equipment_id": 21,
+            "timestep": 76,
+            "value": -0.6989477390461438,
+            "limit": 0.0,
+            "severity": 0.6989477390461438
+          },
+          "trace": [
+            {
+              "step": 1,
+              "peak_loading": 0.7146021486550292,
+              "battery_mwh": 19.157894736842106,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.08639083248195872,
+                "persistence": 0.0726999457544643,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  1.05,
+                  1.05,
+                  18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 2,
+              "peak_loading": 0.7134141503750879,
+              "battery_mwh": 17.315789473684212,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.07418519535098383,
+                "persistence": 0.0041745117580720215,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  1.05,
+                  1.05,
+                  18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 3,
+              "peak_loading": 0.7143382372501367,
+              "battery_mwh": 15.473684210526315,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.06926416993982822,
+                "persistence": 0.0026135014651458978,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  1.05,
+                  1.05,
+                  18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 4,
+              "peak_loading": 0.6960405694443594,
+              "battery_mwh": 13.63157894736842,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.07498633339051236,
+                "persistence": 0.026763129026447226,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  1.05,
+                  1.05,
+                  18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 5,
+              "peak_loading": 0.7142398309820809,
+              "battery_mwh": 14.46282894736842,
+              "backlog_mwh": 1.715,
+              "forecast_error": {
+                "wam": 0.07092379043079997,
+                "persistence": 0.010836062430040466,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  5.25,
+                  5.25,
+                  52.92
+                ],
+                "battery": [
+                  -0.525,
+                  -0.525,
+                  -9.450000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 6,
+              "peak_loading": 0.7271063156922264,
+              "battery_mwh": 12.620723684210525,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.07572453342847929,
+                "persistence": 0.011949517652102717,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  5.229000000000001,
+                  5.229000000000001,
+                  94.12200000000001
+                ],
+                "battery": [
+                  1.05,
+                  1.05,
+                  18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 7,
+              "peak_loading": 0.71015152781412,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.715,
+              "forecast_error": {
+                "wam": 0.06360243408607913,
+                "persistence": 0.011212350250300877,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  5.25,
+                  5.25,
+                  52.92
+                ],
+                "battery": [
+                  -0.525,
+                  -0.525,
+                  -9.450000000000001
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 8,
+              "peak_loading": 0.7269173933767769,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.7149999999999996,
+              "forecast_error": {
+                "wam": 0.07055998034242401,
+                "persistence": 0.011483571875553138,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 9,
+              "peak_loading": 0.7273253447466258,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.7149999999999992,
+              "forecast_error": {
+                "wam": 0.06653873294855095,
+                "persistence": 0.0034358583196022747,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 10,
+              "peak_loading": 0.7274074809900508,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.7149999999999987,
+              "forecast_error": {
+                "wam": 0.0646209309268697,
+                "persistence": 0.002231196201161828,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 11,
+              "peak_loading": 0.7262913757930657,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.7149999999999983,
+              "forecast_error": {
+                "wam": 0.06193394137489783,
+                "persistence": 0.003581938121350045,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 12,
+              "peak_loading": 0.7254376139101141,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.7149999999999979,
+              "forecast_error": {
+                "wam": 0.06082482841322013,
+                "persistence": 0.0011739546135351297,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 13,
+              "peak_loading": 0.7272596514361852,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.7149999999999974,
+              "forecast_error": {
+                "wam": 0.05754964962359403,
+                "persistence": 0.003749622214445154,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 14,
+              "peak_loading": 0.7265195486239663,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.714999999999997,
+              "forecast_error": {
+                "wam": 0.056735279372731165,
+                "persistence": 0.0023786186128183953,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 15,
+              "peak_loading": 0.7274057691111135,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.7149999999999965,
+              "forecast_error": {
+                "wam": 0.05565218565414217,
+                "persistence": 0.003601170012104943,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 16,
+              "peak_loading": 0.7264489345965279,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.714999999999996,
+              "forecast_error": {
+                "wam": 0.05538886848510029,
+                "persistence": 0.0018863107671967998,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 17,
+              "peak_loading": 0.7230095646948489,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.7149999999999956,
+              "forecast_error": {
+                "wam": 0.053245860414054005,
+                "persistence": 0.0054365905580088135,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 18,
+              "peak_loading": 0.7267937168719671,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.7149999999999952,
+              "forecast_error": {
+                "wam": 0.05392108221729818,
+                "persistence": 0.0043858765374351644,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 19,
+              "peak_loading": 0.7271484630910822,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.7149999999999948,
+              "forecast_error": {
+                "wam": 0.053047537090183054,
+                "persistence": 0.003965429460165921,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 20,
+              "peak_loading": 0.722440788104274,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.7149999999999943,
+              "forecast_error": {
+                "wam": 0.052114465543906495,
+                "persistence": 0.0037104250945729457,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 21,
+              "peak_loading": 0.7263850252176162,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.7149999999999939,
+              "forecast_error": {
+                "wam": 0.0513024170934516,
+                "persistence": 0.005089099601608227,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 22,
+              "peak_loading": 0.7284624346129489,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.7149999999999934,
+              "forecast_error": {
+                "wam": 0.05031223883085297,
+                "persistence": 0.004228354104614861,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 23,
+              "peak_loading": 0.7278401637803783,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.714999999999993,
+              "forecast_error": {
+                "wam": 0.04999858035880182,
+                "persistence": 0.003216966825621829,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 24,
+              "peak_loading": 0.7270195546000753,
+              "battery_mwh": 13.451973684210524,
+              "backlog_mwh": 1.7149999999999925,
+              "forecast_error": {
+                "wam": 0.05011541032839087,
+                "persistence": 0.001443517766340424,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  4.2,
+                  4.2,
+                  75.60000000000001
+                ],
+                "battery": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 25,
+              "peak_loading": 0.6164395779521591,
+              "battery_mwh": 11.609868421052628,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.07375531122142366,
+                "persistence": 0.07836171909708572,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  1.0289999999999955,
+                  1.0289999999999955,
+                  18.52199999999992
+                ],
+                "battery": [
+                  1.05,
+                  1.05,
+                  18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 26,
+              "peak_loading": 0.6138400824277075,
+              "battery_mwh": 9.767763157894732,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.07304561303163247,
+                "persistence": 0.020662983444382593,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [
+                {
+                  "kind": "generation_limit",
+                  "equipment_id": 21,
+                  "timestep": 76,
+                  "value": -0.6989477390461438,
+                  "limit": 0.0,
+                  "severity": 0.6989477390461438
+                }
+              ],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  1.05,
+                  1.05,
+                  18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 27,
+              "peak_loading": 0.6113683392588716,
+              "battery_mwh": 7.925657894736838,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.06439960241230284,
+                "persistence": 0.0019196550925962112,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [
+                {
+                  "kind": "generation_limit",
+                  "equipment_id": 21,
+                  "timestep": 77,
+                  "value": -0.3223084865292094,
+                  "limit": 0.0,
+                  "severity": 0.3223084865292094
+                }
+              ],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  1.05,
+                  1.05,
+                  18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 28,
+              "peak_loading": 0.6133762600336937,
+              "battery_mwh": 7.700000000000002,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.05218266049908117,
+                "persistence": 0.018589286634658364,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  0.12862500000000093,
+                  0.12862500000000093,
+                  2.3152499999999305
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 29,
+              "peak_loading": 0.6424189263859096,
+              "battery_mwh": 9.3625,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.047441535314075106,
+                "persistence": 0.023943746498566353,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -1.05,
+                  -1.05,
+                  -18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 30,
+              "peak_loading": 0.6423469735477874,
+              "battery_mwh": 11.025000000000002,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.047894526409398445,
+                "persistence": 0.0025130975503453966,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -1.0499999999999987,
+                  -1.0499999999999987,
+                  -18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 31,
+              "peak_loading": 0.642117470004999,
+              "battery_mwh": 12.687500000000002,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04672039385577022,
+                "persistence": 0.0041699776078378565,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -1.05,
+                  -1.05,
+                  -18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 32,
+              "peak_loading": 0.6422196428953602,
+              "battery_mwh": 14.350000000000001,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04646285562374219,
+                "persistence": 0.0027671490542033692,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -1.05,
+                  -1.05,
+                  -18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 33,
+              "peak_loading": 0.6419693568518888,
+              "battery_mwh": 16.0125,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04704346403073507,
+                "persistence": 0.002763244684295664,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -1.05,
+                  -1.05,
+                  -18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 34,
+              "peak_loading": 0.6435946168882746,
+              "battery_mwh": 17.675,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04743176937909282,
+                "persistence": 0.0029428855203765857,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -1.05,
+                  -1.05,
+                  -18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 35,
+              "peak_loading": 0.6435488240262163,
+              "battery_mwh": 19.337500000000002,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04713563295231439,
+                "persistence": 0.00394020014199668,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -1.05,
+                  -1.05,
+                  -18.900000000000002
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            },
+            {
+              "step": 36,
+              "peak_loading": 0.6437640219703901,
+              "battery_mwh": 21.000000000000004,
+              "backlog_mwh": 0.0,
+              "forecast_error": {
+                "wam": 0.04666333091596985,
+                "persistence": 0.0025656193704084373,
+                "actual_overload_branches": 0,
+                "wam_detected": 0,
+                "persistence_detected": 0
+              },
+              "violations": [],
+              "action": {
+                "processing": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "battery": [
+                  -1.05,
+                  -1.05,
+                  -18.9
+                ],
+                "grid": {
+                  "kind": "hold"
+                }
+              }
+            }
+          ],
+          "discharge_counterfactuals": [
+            {
+              "step": 26,
+              "observed": [
+                {
+                  "kind": "generation_limit",
+                  "equipment_id": 21,
+                  "timestep": 76,
+                  "value": -0.6989477390461438,
+                  "limit": 0.0,
+                  "severity": 0.6989477390461438
+                }
+              ],
+              "no_discharge": []
+            },
+            {
+              "step": 27,
+              "observed": [
+                {
+                  "kind": "generation_limit",
+                  "equipment_id": 21,
+                  "timestep": 77,
+                  "value": -0.3223084865292094,
+                  "limit": 0.0,
+                  "severity": 0.3223084865292094
+                }
+              ],
+              "no_discharge": []
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

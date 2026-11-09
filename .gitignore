@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+ui/node_modules/
+ui/dist/
+*.tsbuildinfo
+
+# Local credentials, model weights, generated datasets, and experiment workspaces
+.env
+.env.*
+!.env.example
+.modal.toml
+.DS_Store
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.parquet
+artifacts/**/cost-ledger.json

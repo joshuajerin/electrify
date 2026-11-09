@@ -1,0 +1,50 @@
+{
+  "baseline": {
+    "proposals": [
+      [
+        0,
+        17.4,
+        true,
+        0
+      ],
+      [
+        32,
+        17.4,
+        true,
+        0
+      ],
+      [
+        9,
+        17.4,
+        true,
+        0
+      ]
+    ],
+    "verified_best_mw": 69.6,
+    "bus0_best_mw": 58.59
+  },
+  "line_2_rating_multiplier_0.70": {
+    "proposals": [
+      [
+        0,
+        17.4,
+        true,
+        0
+      ],
+      [
+        32,
+        17.4,
+        true,
+        0
+      ],
+      [
+        9,
+        17.4,
+        true,
+        0
+      ]
+    ],
+    "verified_best_mw": 69.6,
+    "bus0_best_mw": 40.24
+  }
+}

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grid Shift · Regional study</title>
+<style>
+:root{color-scheme:dark;--bg:#10161a;--panel:#182127;--line:#34434c;--text:#edf5f6;--muted:#b2c3cb;--accent:#aef0cc}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,sans-serif}
+main{max-width:760px;margin:auto;padding:40px 24px 68px}header{display:flex;align-items:center;justify-content:space-between;margin-bottom:36px}
+header strong{letter-spacing:-.03em}header span,.eyebrow{color:var(--muted);font-size:.76rem;letter-spacing:.10em;text-transform:uppercase}
+h1{font-size:clamp(2rem,7vw,3.4rem);line-height:1.04;letter-spacing:-.045em;margin:.4em 0}.muted,p{color:var(--muted)}a{color:var(--accent)}
+[hidden]{display:none!important}.choices,.comparison{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:24px 0}
+button,input{font:inherit}button{cursor:pointer}.card,details,.result{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px;color:var(--text)}
+.card{text-align:left}.card:hover{border-color:var(--accent)}.card strong{display:block;font-size:1.25rem}.card span,.comparison small{display:block;color:var(--muted)}
+.primary{background:var(--accent);color:#0e2219;border:0;border-radius:10px;padding:12px 18px;font-weight:700}
+button:disabled{opacity:.65;cursor:wait}.back{background:none;border:0;padding:0;color:var(--accent);margin-bottom:16px}
+form{margin:24px 0}label{display:block;font-weight:650}input{padding:10px;border:1px solid var(--line);border-radius:8px;background:#0e1518;color:var(--text);width:128px;margin:8px 0 16px}
+details{margin:12px 0}summary{cursor:pointer;font-weight:650}.result strong{display:block;font-size:clamp(2rem,8vw,3.75rem);color:var(--accent);letter-spacing:-.06em}
+.comparison{grid-template-columns:repeat(3,minmax(0,1fr))}.comparison .card{padding:14px}
+@media(max-width:540px){.choices,.comparison{grid-template-columns:1fr}main{padding-top:24px}}
+</style>
+<main>
+<header><strong>Grid Shift</strong><span>Regional preview</span></header>
+<section id="choose">
+  <div class="eyebrow">Step 1 of 3</div>
+  <h1>Choose a region</h1>
+  <p>Study how a new compute load fits into an AC grid case grounded in public regional demand data.</p>
+  <div id="choices" class="choices"></div>
+</section>
+<section id="setup" hidden>
+  <button class="back" id="change-region">← Change region</button>
+  <div class="eyebrow">Step 2 of 3</div>
+  <h1 id="region"></h1>
+  <p>Compare two candidate sites and an even split. Each option is screened in the intact grid and with one selected corridor out.</p>
+  <form id="study-form">
+    <label for="request">Requested compute (MW)</label>
+    <input id="request" type="number" min="1" max="5000" required>
+    <details><summary>Demand and case assumptions</summary>
+      <p id="reference"></p>
+      <label for="scale">Background demand multiplier</label>
+      <input id="scale" type="number" min=".75" max="1.15" step=".01" value="1" required>
+      <p>Synthetic topology, equipment ratings, and dispatch. Public data sets the regional demand scale.</p>
+    </details>
+    <button class="primary" id="run" type="submit">Run connection study →</button>
+  </form>
+</section>
+<section id="results" hidden>
+  <button class="back" id="edit">← Edit request</button>
+  <div class="eyebrow">Step 3 of 3</div>
+  <h1 id="result-title">Study result</h1>
+  <div class="result"><span id="result-label"></span><strong id="accepted"></strong><div id="limiter"></div><p id="placement"></p></div>
+  <div class="comparison" id="comparison"></div>
+  <details><summary>Inspect result</summary><p id="evidence"></p>
+    <p>This steady-state screen checks thermal loading and voltage in two modeled conditions. It uses fixed background dispatch with a balancing source. Results are conditional on the synthetic case and its assumptions.</p>
+  </details>
+</section>
+<p id="status" role="status" aria-live="polite"></p>
+</main>
+<script type="module">
+const byId = id => document.getElementById(id);
+const format = new Intl.NumberFormat('en', {maximumFractionDigits: 1});
+const mw = value => format.format(value) + ' MW';
+let region;
+function show(view) {
+  for (const id of ['choose','setup','results']) byId(id).hidden = id !== view;
+  byId('status').textContent = '';
+}
+function element(tag, text, className) {
+  const node = document.createElement(tag);
+  node.textContent = text;
+  if (className) node.className = className;
+  return node;
+}
+async function json(url, options) {
+  const response = await fetch(url, options);
+  if (!response.ok) throw new Error('Study request failed. Check the inputs and try again.');
+  return response.json();
+}
+function select(option) {
+  region = option;
+  byId('region').textContent = option.name;
+  byId('request').value = option.id === 'singapore' ? 1000 : 4000;
+  byId('scale').value = '1';
+  const source = element('a', option.reference);
+  source.href = option.source;
+  source.target = '_blank';
+  source.rel = 'noopener noreferrer';
+  byId('reference').replaceChildren(source, ' · ' + mw(option.peak_mw));
+  show('setup');
+  byId('request').focus();
+}
+function describe(witness) {
+  const reading = witness.value === null ? '' : ' at ' + witness.value + ' ' + witness.unit;
+  return witness.condition + ' · ' + witness.equipment + reading;
+}
+function render(report) {
+  const best = report.best;
+  byId('result-title').textContent = report.region + ' study';
+  byId('result-label').textContent = report.baseline_ok ? 'Highest passing amount among tested options' : 'Existing grid fails the baseline screen';
+  byId('accepted').textContent = report.baseline_ok ? mw(best.accepted_mw) : 'No capacity credited';
+  byId('limiter').textContent = !report.baseline_ok ? describe(report.baseline) :
+    (best.accepted_mw >= report.requested_mw ? 'Most loaded equipment at the full request · ' : 'Full request limited by ') + describe(best.requested_case);
+  byId('placement').textContent = best.accepted_mw > 0 ? best.sites.map(site => site.name + ' · ' + mw(site.mw)).join(' + ') :
+    (report.baseline_ok ? 'Try a smaller request.' : 'Lower background demand to explore a scenario that passes the baseline.');
+  byId('comparison').replaceChildren(...report.options.map(option => {
+    const card = element('div','', 'card');
+    card.append(element('span', option.name), element('strong', mw(option.accepted_mw)),
+      element('small', option.sites.map(site => site.name + ' ' + mw(site.mw)).join(' · ')));
+    return card;
+  }));
+  byId('evidence').textContent = [
+    mw(report.demand_mw) + ' background demand', report.voltage_kv.join('/') + ' kV',
+    report.bus_count + ' modeled buses', report.corridor_count + ' modeled corridors',
+    'Outage tested: ' + report.outage, 'Capacity tested in 5% increments of the request'
+  ].join(' · ');
+  show('results');
+}
+byId('change-region').onclick = () => show('choose');
+byId('edit').onclick = () => {show('setup'); byId('request').focus();};
+byId('study-form').onsubmit = async event => {
+  event.preventDefault();
+  const run = byId('run');
+  run.disabled = byId('change-region').disabled = true;
+  run.textContent = 'Running AC screen…';
+  try {
+    const report = await json('/api/regions/' + region.id + '/study', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({requested_mw:Number(byId('request').value), demand_scale:Number(byId('scale').value)})
+    });
+    render(report);
+  } catch (error) {byId('status').textContent = error.message;}
+  finally {
+    run.disabled = byId('change-region').disabled = false;
+    run.textContent = 'Run connection study →';
+  }
+};
+try {
+  const regions = await json('/api/regions');
+  for (const option of regions) {
+    const button = element('button','', 'card');
+    button.append(element('strong', option.name), element('span', mw(option.peak_mw) + ' regional demand reference'));
+    button.onclick = () => select(option);
+    byId('choices').append(button);
+  }
+} catch (error) {byId('status').textContent = error.message;}
+</script>
+</html>
